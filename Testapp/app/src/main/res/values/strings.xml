@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Testapp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Start_button">Start/Continue</string>
+    <string name="Stop_button">Stop</string>
+    <string name="Reset_button">Reset</string>
+
+</resources>
