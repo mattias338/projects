@@ -4,5 +4,27 @@
     <string name="app_name">Exlo</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="textViewTimeString">Time: </string>
+    <string name="textViewTypeString">Type:</string>
+    <string name="textViewAmountString">Amount:</string>
+    <string name="textViewUnitString">Unit:</string>
+    <string name="buttonAddString">Add</string>
+    <string name="buttonAddEntryString">Add entry</string>
+    <string name="buttonSetToNowString">Set to Now</string>
 
+
+    <string-array name="types_array">
+        <item>push ups</item>
+        <item>sit ups</item>
+        <item>chins</item>
+        <item>weight</item>
+    </string-array>
+
+    <string-array name="units_array">
+        <item>kg</item>
+        <item>reps</item>
+        <item>minutes</item>
+        <item>seconds</item>
+        <item>km</item>
+    </string-array>
 </resources>
