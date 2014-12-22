@@ -3,7 +3,7 @@ package com.banken.exlo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Data {
+public class Types {
     private static final List<String> types;
     private static final List<String> units;
 
