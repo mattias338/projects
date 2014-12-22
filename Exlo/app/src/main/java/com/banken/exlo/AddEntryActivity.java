@@ -7,6 +7,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.banken.exlo.datahandling.DataEntry;
+
 import java.util.Calendar;
 import java.util.Locale;
 
@@ -44,6 +46,14 @@ public class AddEntryActivity extends Activity {
 
     public void buttonAddCallback(View view) {
         // Save entry
+        Spinner typeSpinner = (Spinner) findViewById(R.id.spinner_type);
+        String selectedType = (String) typeSpinner.getSelectedItem();
+        Spinner unitSpinner = (Spinner) findViewById(R.id.spinner_unit);
+        String selectedUnit = (String) unitSpinner.getSelectedItem();
+        DataEntry dataEntry = new DataEntry(time , selectedType, selectedUnit);
+
+        
+
     }
 
     private static long getCurrentTime() {
