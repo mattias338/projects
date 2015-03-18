@@ -1,6 +1,7 @@
 package com.banken.simplexmltest;
 
 import android.content.Context;
+import android.os.Environment;
 import android.util.Log;
 
 import com.banken.simplexmltest.objects.Apple;
@@ -41,7 +42,7 @@ public class WriteExample {
         // Now write the level out to a file
         Log.i(TAG, "Write Level to file.");
         Serializer serial = new Persister();
-        File sdcardFile = new File(context.getFilesDir() + "xmlFileName.xml");//new File("/sdcard/levelout.xml");
+        File sdcardFile = new File(Environment.getExternalStorageDirectory().getPath() + "/Mattias.xml");//new File("/sdcard/levelout.xml");//new File(context.getFilesDir() + "xmlFileName.xml");
 
         try {
             serial.write(level, sdcardFile);
